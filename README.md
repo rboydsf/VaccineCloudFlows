@@ -3,4 +3,4 @@ Additional flows to support Vaccine Administration, Vaccine Stock and Households
 
 [Latest release notes](https://salesforce.quip.com/ZDCSAEFsbJ5i)
 
-[https://githubsfdeploy.herokuapp.com/?owner=rboydsf&repo=VaccineCloudFlows](Install to Salesforce)
+(https://githubsfdeploy.herokuapp.com/?owner=rboydsf&repo=VaccineCloudFlows)
