@@ -7,6 +7,6 @@ Additional flows to support Vaccine Administration, Vaccine Stock and Households
 
 ## Deployment
 
-[Deploy to Salesforce Sandbox](https://githubsfdeploy.herokuapp.com/app/githubdeploy/rboydsf/VaccineCloudFlows)
+[Deploy to Salesforce Sandbox](https://githubsfdeploy.herokuapp.com/app/githubdeploy/rboydsf/VaccineCloudFlows.git)
 
-[Deploy to Salesforce Production](https://githubsfdeploy.herokuapp.com/rboydsf/VaccineCloudFlows)
+[Deploy to Salesforce Production](https://githubsfdeploy.herokuapp.com//rboydsf/VaccineCloudFlows.git)
