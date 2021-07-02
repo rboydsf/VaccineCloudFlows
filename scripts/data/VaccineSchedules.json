@@ -1,0 +1,66 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "vxVaccine_Schedule__c",
+                "referenceId": "vxVaccine_Schedule__cRef1"
+            },
+            "Name": "Havrix | Hep A | Primary Schedule",
+            "Vaccine_Schedule_Doses__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "vxVaccine_Schedule_Dose__c",
+                            "referenceId": "vxVaccine_Schedule_Dose__cRef1"
+                        },
+                        "Name": "Dose 2: Havrix Hep A",
+                        "Dose_Sequence__c": 2,
+                        "Offset__c": 180,
+                        "Maximum_Permissible_Days_After__c": 360,
+                        "Minimum_Permissible_Days_Before__c": 180
+                    },
+                    {
+                        "attributes": {
+                            "type": "vxVaccine_Schedule_Dose__c",
+                            "referenceId": "vxVaccine_Schedule_Dose__cRef2"
+                        },
+                        "Name": "Dose 1: Havrix Hep A",
+                        "Dose_Sequence__c": 1,
+                        "Offset__c": 0
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "vxVaccine_Schedule__c",
+                "referenceId": "vxVaccine_Schedule__cRef2"
+            },
+            "Name": "Pfizer | COVID-19 | 28 Day Schedule",
+            "Vaccine_Schedule_Doses__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "vxVaccine_Schedule_Dose__c",
+                            "referenceId": "vxVaccine_Schedule_Dose__cRef3"
+                        },
+                        "Name": "Dose 2: Pfizer 28 Day",
+                        "Dose_Sequence__c": 2,
+                        "Offset__c": 28,
+                        "Maximum_Permissible_Days_After__c": 5,
+                        "Minimum_Permissible_Days_Before__c": 5
+                    },
+                    {
+                        "attributes": {
+                            "type": "vxVaccine_Schedule_Dose__c",
+                            "referenceId": "vxVaccine_Schedule_Dose__cRef4"
+                        },
+                        "Name": "Dose 1: Pfizer 28 Day",
+                        "Dose_Sequence__c": 1,
+                        "Offset__c": 0
+                    }
+                ]
+            }
+        }
+    ]
+}

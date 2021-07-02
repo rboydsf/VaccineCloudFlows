@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vaccine_Product__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Vaccine Record Type on Product</description>
+    <externalId>false</externalId>
+    <label>Vaccine Product</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Select a Product that is Vaccine Record Type</errorMessage>
+        <filterItems>
+            <field>Product2.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Vaccine</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Vaccine Schedules</relationshipLabel>
+    <relationshipName>Vaccine_Schedules</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

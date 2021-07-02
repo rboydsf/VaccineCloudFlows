@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Schedule__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Where the vaccine has more than one vaccine schedule, this schedule will be selected as the default</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Where the vaccine has more than one schedule, this will be selected as the default</inlineHelpText>
+    <label>Default Schedule</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

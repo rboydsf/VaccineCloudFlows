@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_Site__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Vaccine Site User is associated with, the default site determines the Vaccine Asset record selected for the user during the vaccine administration process</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Vaccine Site User is associated with, the default site determines the Vaccine Asset record selected for the user during the vaccine administration process</inlineHelpText>
+    <label>Default Site</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,39 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "VaccineManagement",
+      "versionNumber": "1.0.NEXT",
+      "dependencies": [
+        {
+          "package": "HealthCloud"
+        }
+      ]
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "51.0",
+  "packageAliases": {
+    "HealthCloud" : "04t4W000002kaNAQAY"
+  },
+  "plugins" :{
+    "scripts" :{
+      "defaultOrg" : [
+        "# Create new default scratch Org",
+        "force:org:create -f config/project-scratch-def.json -a scvax3 -s -v devHub",
+        "# Install Health Cloud",
+        "force:package:install --package 04t4W000002kaNAQAY",
+        "# Health Cloud Install Started. Wait for email to confirm completion"
+      ],
+      "testOrg" :[
+        "# Create non-default scratch Org",
+        "force:org:create -f config/project-scratch-def.json -a vaxtest -v devHub",
+        "# Install Health Cloud",
+        "force:package:install --package 04t4W000002kaNAQAY",
+        "# Health Cloud Install Started. Wait for email to confirm completion"
+      ]
+    }
+  }
+}

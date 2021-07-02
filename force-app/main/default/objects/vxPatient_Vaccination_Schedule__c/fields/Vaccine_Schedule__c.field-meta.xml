@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vaccine_Schedule__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Vaccine Schedule assigned to this person</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Vaccine Schedule assigned to this person</inlineHelpText>
+    <label>Vaccine Schedule</label>
+    <referenceTo>vxVaccine_Schedule__c</referenceTo>
+    <relationshipLabel>Patient Vaccination Schedules</relationshipLabel>
+    <relationshipName>Patient_Vaccination_Schedules</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

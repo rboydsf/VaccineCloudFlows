@@ -1,0 +1,4 @@
+SELECT id, Name, 
+(SELECT Id, Name, Dose_Sequence__c, Offset__c, 
+Maximum_Permissible_Days_After__c,Minimum_Permissible_Days_Before__c
+FROM Vaccine_Schedule_Doses__r) FROM vxVaccine_Schedule__c

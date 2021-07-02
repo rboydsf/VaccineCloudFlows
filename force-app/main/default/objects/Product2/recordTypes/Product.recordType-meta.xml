@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product</fullName>
+    <active>true</active>
+    <label>Product</label>
+    <picklistValues>
+        <picklist>Family</picklist>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QuantityUnitOfMeasure</picklist>
+        <values>
+            <fullName>Each</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vxDose_Unit__c</picklist>
+        <values>
+            <fullName>%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ml</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ug</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vxRoute_of_Administration__c</picklist>
+        <values>
+            <fullName>Injection %28Intradermal%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

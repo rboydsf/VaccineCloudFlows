@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HealthCloudGA__Occupation__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Occupation</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Childcare workers</fullName>
+                <default>false</default>
+                <label>Childcare worker</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Healthcare Worker</fullName>
+                <default>false</default>
+                <label>Healthcare Worker</label>
+            </value>
+            <value>
+                <fullName>Frontline Services Worker</fullName>
+                <default>false</default>
+                <label>Frontline Services Worker</label>
+            </value>
+            <value>
+                <fullName>Clinical laboratory technologists and technicians</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Clinical laboratory technologist or technician</label>
+            </value>
+            <value>
+                <fullName>Combined food preparation and serving workers, including fast food</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Combined food preparation or serving worker, including fast food</label>
+            </value>
+            <value>
+                <fullName>Dentists</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Dentist</label>
+            </value>
+            <value>
+                <fullName>Emergency management directors</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Emergency management director</label>
+            </value>
+            <value>
+                <fullName>Emergency medical technicians and paramedics</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Emergency medical technician or paramedic</label>
+            </value>
+            <value>
+                <fullName>Health practitioner support technologists and technicians</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Health practitioner support technologist or technician</label>
+            </value>
+            <value>
+                <fullName>Healthcare support workers, all other, including medical equipment preparers</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Healthcare support worker(including medical equipment preparer)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

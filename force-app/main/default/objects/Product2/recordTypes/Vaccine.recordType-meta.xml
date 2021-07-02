@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vaccine</fullName>
+    <active>true</active>
+    <description>Vaccine Product</description>
+    <label>Vaccine</label>
+    <picklistValues>
+        <picklist>Family</picklist>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QuantityUnitOfMeasure</picklist>
+        <values>
+            <fullName>Each</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vxDose_Unit__c</picklist>
+        <values>
+            <fullName>%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ml</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ug</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vxRoute_of_Administration__c</picklist>
+        <values>
+            <fullName>Inhalation %28Nasal%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Injection %28Intradermal%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Injection %28Intramuscular%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Injection %28Subcutaneous%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swallow %28Oral%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

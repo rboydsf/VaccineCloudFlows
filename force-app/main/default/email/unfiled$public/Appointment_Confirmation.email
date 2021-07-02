@@ -1,0 +1,1 @@
+Congratulations you've successfully scheduled {!ServiceAppointment.Account} for a vaccination appointment on {!ServiceAppointment.ActualStartTime}.  Please arrive 15 minutes early and bring your identification.

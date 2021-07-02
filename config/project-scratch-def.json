@@ -1,0 +1,13 @@
+{
+  "orgName": "Vaccine Management",
+  "edition" : "Developer",
+  "features": ["EnableSetPasswordInApi","HealthCloudUser", "PersonAccounts","ContactsToMultipleAccounts"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}

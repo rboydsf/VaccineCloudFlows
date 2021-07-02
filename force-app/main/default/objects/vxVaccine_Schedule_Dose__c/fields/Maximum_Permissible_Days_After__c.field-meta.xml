@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Maximum_Permissible_Days_After__c</fullName>
+    <description>Maximum number of days after the planned vaccine administration date the vaccine dose should be administered. e.g. Planned Administration Date is 10th June 2021 a value of 5 indicates that the latest permissible date is the 15th June 2021</description>
+    <externalId>false</externalId>
+    <label>Maximum Permissible Days After</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,2 @@
+SELECT id, Name,vxRoute_of_Administration__c,vxDosage__c,vxDose_Unit__c, vxDose_Value__c 
+FROM Product2

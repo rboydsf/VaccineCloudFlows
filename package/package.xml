@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>HealthCloudGA__Clinical_Assessment_Response__c</members>
+		<members>HealthCloudGA__Clinical_Assessment_Setting__mdt</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>vxAddDependent</members>
+		<members>vxSubFlow_AddDependentAssessment</members>
+		<name>Flow</name>
+	</types>
+	<version>51.0</version>
+</Package>

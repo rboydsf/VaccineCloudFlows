@@ -1,0 +1,26 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref1"
+            },
+            "Name": "PfizerBiotech",
+            "vxRoute_of_Administration__c": "Injection (Intramuscular)",
+            "vxDosage__c": ".1 ml",
+            "vxDose_Unit__c": "ml",
+            "vxDose_Value__c": 0.1
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref2"
+            },
+            "Name": "Havrix (Hep A)",
+            "vxRoute_of_Administration__c": "Injection (Intramuscular)",
+            "vxDosage__c": ".5 ml",
+            "vxDose_Unit__c": "ml",
+            "vxDose_Value__c": 0.5
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>This email template is used for appointment confirmation</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Appointment Confirmation</name>
+    <style>none</style>
+    <subject>Vaccination Appointment Confirmation</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
