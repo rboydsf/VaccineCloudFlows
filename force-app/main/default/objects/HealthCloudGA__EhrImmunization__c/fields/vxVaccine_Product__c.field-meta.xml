@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vxVaccine_Product__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Product record for this vaccine</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Vaccine Product</inlineHelpText>
+    <label>Vaccine Product</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Product2.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Vaccine</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>EHR Immunizations</relationshipLabel>
+    <relationshipName>EHR_Immunizations</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
