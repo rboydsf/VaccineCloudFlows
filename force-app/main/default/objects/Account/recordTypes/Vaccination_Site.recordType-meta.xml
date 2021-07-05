@@ -39,17 +39,6 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>HealthCloudGA__IndividualType__c</picklist>
-        <values>
-            <fullName>Group</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Individual</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>HealthCloudGA__MedicareEnrollee__c</picklist>
         <values>
             <fullName>Continued</fullName>

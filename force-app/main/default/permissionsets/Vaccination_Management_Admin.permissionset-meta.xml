@@ -383,11 +383,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ServiceResource.IsCapacityBased</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>ServiceResource.LocationId</field>
         <readable>true</readable>
     </fieldPermissions>
