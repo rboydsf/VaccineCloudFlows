@@ -1588,32 +1588,6 @@
     </layoutAssignments>
     <recordTypeVisibilities>
         <default>false</default>
-        <personAccountDefault>true</personAccountDefault>
-        <recordType>Account.Business_Account</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Account.HealthCloudGA__IndustriesBusiness</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Account.HealthCloudGA__IndustriesHousehold</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Account.HealthCloudGA__IndustriesIndividual</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Account.HealthCloudGA__IndustriesPayer</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>Account.Vaccination_Site</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
