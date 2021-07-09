@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>CustomApplication</name>
+    <members>Vaccine_Cloud</members>
+  </types>
+  <types>
+    <name>ContentAsset</name>
+    <members>VaccineAdministrationManagementIcon</members>
+  </types>
+  <types>
+    <name>CustomMetadata</name>
+    <members>HealthCloudGA__Clinical_Assessment_Setting.HealthCloudGA__Clinical_Assessment_Flow_Setting</members>
+    <members>HealthCloudGA__IndividualRecordTypeMapper.Person_Account</members>
+  </types>
+  <types>
+    <name>EmailTemplate</name>
+    <members>unfiled$public/Appointment_Confirmation</members>
+    <members>unfiled$public/Registration_Confirmation</members>
+    <members>unfiled$public/Registration_Invitation</members>
+  </types>
+  <types>
+    <name>FlexiPage</name>
+    <members>Account_Record_Page</members>
+    <members>Account_Record_Page1</members>
+    <members>Health_Cloud_Console_UtilityBar</members>
+    <members>Patient_Console</members>
+    <members>Product_Record_Page</members>
+    <members>Vaccine_Cloud_UtilityBar</members>
+  </types>
+  <types>
+    <name>Flow</name>
+    <members>vxAddDependent</members>
+    <members>vxSubFlow_AddDependentAssessment</members>
+    <members>vxUpdate_Vaccine_Schedule_Calculate_Planned_Date</members>
+    <members>vxUser_Vaccination_Site</members>
+    <members>vxVaccine_Administration_v2</members>
+  </types>
+  <types>
+    <name>Layout</name>
+    <members>Account-Vaccination Site Layout</members>
+    <members>Asset-Vaccine</members>
+    <members>HealthCloudGA__Clinical_Assessment_Response__c-HealthCloudGA__Clinical Assessment Response Layout</members>
+    <members>HealthCloudGA__EhrImmunization__c-HealthCloudGA__EHR Immunization Layout</members>
+    <members>HealthCloudGA__EhrImmunization__c-Vaccine Layout</members>
+    <members>PersonAccount-Person Account Layout</members>
+    <members>Product2-Vaccine</members>
+    <members>vxPatient_Vaccination_Schedule__c-Patient Vaccination Schedule Layout</members>
+    <members>vxVaccination_Site_Resource__c-Vaccination Site Resource Layout</members>
+    <members>vxVaccine_Schedule_Dose__c-Vaccine Schedule Dose Layout</members>
+    <members>vxVaccine_Schedule__c-Vaccine Schedule Layout</members>
+  </types>
+  <types>
+    <name>CustomObject</name>
+    <members>Account</members>
+    <members>Asset</members>
+    <members>HealthCloudGA__Clinical_Assessment_Response__c</members>
+    <members>HealthCloudGA__Clinical_Assessment_Setting__mdt</members>
+    <members>HealthCloudGA__EhrImmunization__c</members>
+    <members>vxPatient_Vaccination_Schedule__c</members>
+    <members>vxVaccination_Site_Resource__c</members>
+    <members>vxVaccine_Schedule_Dose__c</members>
+    <members>vxVaccine_Schedule__c</members>
+  </types>
+  <types>
+    <name>RecordType</name>
+    <members>Account</members>
+    <members>Asset</members>
+    <members>Product2</members>
+  </types>
+  <types>
+    <name>CustomField</name>
+    <members>Asset</members>
+    <members>HealthCloudGA__Clinical_Assessment_Response__c</members>
+    <members>HealthCloudGA__Clinical_Assessment_Setting__mdt</members>
+    <members>HealthCloudGA__EhrImmunization__c</members>
+    <members>Product2</members>
+    <members>vxPatient_Vaccination_Schedule__c</members>
+    <members>vxVaccination_Site_Resource__c</members>
+    <members>vxVaccine_Schedule_Dose__c</members>
+    <members>vxVaccine_Schedule__c</members>
+  </types>
+  <types>
+    <name>ListView</name>
+    <members>Asset</members>
+    <members>vxVaccination_Site_Resource__c</members>
+    <members>vxVaccine_Schedule__c</members>
+  </types>
+  <types>
+    <name>CompactLayout</name>
+    <members>vxPatient_Vaccination_Schedule__c</members>
+  </types>
+  <types>
+    <name>PermissionSet</name>
+    <members>Vaccination_Management_Admin</members>
+  </types>
+  <types>
+    <name>QuickAction</name>
+    <members>Account.Add_Dependent</members>
+    <members>Account.Administer_Vaccines</members>
+  </types>
+  <types>
+    <name>Settings</name>
+    <members>Account</members>
+  </types>
+  <types>
+    <name>SharingSet</name>
+    <members>MyHousehold</members>
+  </types>
+  <types>
+    <name>StandardValueSet</name>
+    <members>AccountContactMultiRoles</members>
+    <members>AccountType</members>
+    <members>AssetStatus</members>
+  </types>
+  <types>
+    <name>CustomTab</name>
+    <members>vxVaccination_Site_Resource__c</members>
+    <members>vxVaccine_Schedule__c</members>
+  </types>
+  <types>
+    <name>Workflow</name>
+    <members>HealthCloudGA__EhrImmunization__c</members>
+  </types>
+  <version>51.0</version>
+</Package>
